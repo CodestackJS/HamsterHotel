@@ -1,0 +1,14 @@
+
+/*Navbar design*/
+#myTopnav{
+    background-color: rgb(0,3,36);
+}
+.active{
+    color: #FFFFFF;
+}
+
+.reserve{
+    color: #FFFFFF;
+    border : 2px #E5FEFF solid ; 
+
+}
