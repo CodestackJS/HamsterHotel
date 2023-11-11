@@ -21,10 +21,15 @@
 
 } 
 
-/*.hero{
+.header{
     background-image: url("Images/hotelMarkupAssets/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px blue solid;
+    height: 500px;
+
     
-}*/
+}
 
 .footerText{
     display: flex;
@@ -32,3 +37,14 @@
     justify-content: center;
     background-color: rgb(0,3,36);
 }
+
+/* rooms */
+.blueBackgroundRoom{
+    background-image: url("Images/hotelMarkupAssets/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px blue solid;
+    height: 500px;
+}
+ 
+
