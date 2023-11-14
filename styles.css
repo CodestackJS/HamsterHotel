@@ -26,7 +26,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px blue solid;
-    height: 500px;
+    height: 50rem;
 
     
 }
@@ -44,7 +44,45 @@
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px blue solid;
-    height: 500px;
+    height: 40rem;
 }
  
+#ourRoomText{
+    color: white;
+}
+.ourRoom{
+    display: flex;
+    justify-content: center;
+}
 
+.cardCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#packageFont{
+    display: flex;
+    justify-content: center;
+}
+
+.blueAmenities{
+    background-image: url("Images/hotelMarkupAssets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px blue solid;
+    height: 40rem;
+}
+#amenities{
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+#amenitiesText{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.amText{
+    color: white;
+}
