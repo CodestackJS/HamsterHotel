@@ -1,5 +1,5 @@
 
-/*Navbar design*/
+/*Navbar design starts*/
 .navBg{
     background-color: rgb(0,3,36) !important;
 }
@@ -14,31 +14,23 @@
     justify-content: center;
 }
 
-.reserve{
+.navReserve{
     color: #FFFFFF;
-    border : 2px #E5FEFF solid ; 
-
-
+    border : 2px #E5FEFF solid; 
 } 
+/*Navbar design ends*/
 
+/*header image starts*/
 .header{
     background-image: url("Images/hotelMarkupAssets/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px blue solid;
     height: 50rem;
-
-    
 }
+/*header image ends*/
 
-.footerText{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(0,3,36);
-}
-
-/* rooms */
+/* rooms starts */
 .blueBackgroundRoom{
     background-image: url("Images/hotelMarkupAssets/bg2.jpg");
     background-repeat: no-repeat;
@@ -49,23 +41,39 @@
  
 #ourRoomText{
     color: white;
+    display: flex;
+    justify-content: center;
 }
+
 .ourRoom{
     display: flex;
     justify-content: center;
 }
 
+.sideLeft{
+    text-align: left;
+}
+
+/* rooms ends */
+
+/*card starts*/
 .cardCenter {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/*packages starts*/
 #packageFont{
     display: flex;
     justify-content: center;
 }
 
+.textColor{
+    color: #1F51A8;
+}
+
+/* Amenities section Starts */
 .blueAmenities{
     background-image: url("Images/hotelMarkupAssets/bg.jpg");
     background-repeat: no-repeat;
@@ -86,3 +94,24 @@
 .amText{
     color: white;
 }
+
+/* reserve room section starts*/
+#reserveRoomBackground{
+    background-color: #000324;
+}
+
+.reserveRoomBackgroundText{
+    color: white;
+}
+
+
+
+/*footer starts*/
+.footerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,3,36);
+    color: white;
+}
+/*footer ends*/
